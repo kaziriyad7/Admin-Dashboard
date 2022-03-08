@@ -334,6 +334,18 @@ main table tbody td {
 main table tbody tr:last-child td {
     border:none;
 }
+main .recent-order a {
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
 /* Here is recent-order end */
+
+
+/* Here is right site start */
+
+/* Here is right site end */
+
 
 
