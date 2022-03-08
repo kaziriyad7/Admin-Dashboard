@@ -191,7 +191,7 @@ aside .sidebar a:hover {
 }
 
 aside .sidebar a:hover span{
-    margin-left: 1rem;
+    margin-left: 0.8rem;
 }
 
 aside .sidebar .message-count {
