@@ -66,13 +66,14 @@
 }
 
 /* ................. */
-@media screen and (max-width:1200px) {
+@media screen and (max-width:768px) {
     .container {
         width: 100%;
+        grid-template-columns: 1fr;
     }
     aside {
         position: fixed;
-        left: 0;
+        left: -100%;
         background:var(--color-white);
         width: 18rem;
         z-index: 3;
@@ -80,6 +81,12 @@
         height: 100vh;
         padding-right: var(--card-padding);
         display: none;
+        animation: showMenu 400ms ease forwards;
+    }
+    @keyframes showMenu {
+        to {
+            left: 0;
+        }
     }
     aside .logo {
         margin-left: 1rem;
@@ -147,6 +154,9 @@
         color:var(--color-dark);
         position: absolute;
         left: 1rem;
+    }
+    .right .top button span {
+        font-size: 2rem;
     }
 
 }
